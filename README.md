@@ -157,13 +157,13 @@ Clinical-NoContact-IR-Thermometer/
 │   │   ├── EN_ISO_80601-2-56-2017.pdf           # ISO standard for clinical thermometers (PDF)
 │   │   └── EN_ISO_80601-2-56-2017.docx          # ISO standard reference document (Word)
 │   │
-│   ├── sustainability/                          # Sustainability & Ethics Declarations
-│   │   ├── UN_Sustainable_Development_Report.pdf# UN SDG alignment report
-│   │   ├── UN_Sustainable_Development_Affirmation.docx # Sustainability affirmation
-│   │   ├── Sustainable.docx                     # Sustainability impact analysis
-│   │   └── Ethics_Declaration.docx              # Engineering ethics declaration
-│   │
-│   └── reference-examples/                      # Past sample files & template references
+│   └── sustainability/                          # Sustainability & Ethics Declarations
+│       ├── UN_Sustainable_Development_Report.pdf# UN SDG alignment report
+│       ├── UN_Sustainable_Development_Affirmation.docx # Sustainability affirmation
+│       ├── Sustainable.docx                     # Sustainability impact analysis
+│       └── Ethics_Declaration.docx              # Engineering ethics declaration
+│   
+│   
 │
 └── archive/                                     # Archival Storage
     └── duplicates/                              # Preserved previous draft versions & duplicates
