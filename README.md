@@ -6,7 +6,7 @@
 
 ## ( ° ᴗ ° ) Project Overview
 
-This repository contains the design, hardware specifications, PCB Gerber files, 3D mechanical enclosure models, testing procedures, circuit schematics, physical prototype photos, and embedded C++ firmware for a **Clinical-Grade Non-Contact Infrared (IR) Thermometer**.
+This repository contains the design, hardware specifications, PCB Gerber files, 3D mechanical enclosure models, testing procedures, circuit schematics, physical prototype photos, etched PCB assembly images, and embedded C++ firmware for a **Clinical-Grade Non-Contact Infrared (IR) Thermometer**.
 
 The device is engineered according to international medical device standards, specifically **EN ISO 80601-2-56:2017** (*Particular requirements for basic safety and essential performance of clinical thermometers for body temperature measurement*).
 
@@ -18,6 +18,11 @@ The device is engineered according to international medical device standards, sp
 | :---: | :---: |
 | ![Handheld Prototype](docs/images/thermometer_prototype_side.jpg) | ![OLED Display](docs/images/oled_display_reading.jpg) |
 | *Ergonomic 3D enclosure with trigger button, power switch & IR sensor aperture* | *Real-time temperature readout (18.2 °C) & battery status on SSD1306 OLED* |
+
+| Assembled PCB (Top / Component View) | Etched PCB (Bottom / Traces View) |
+| :---: | :---: |
+| ![Assembled PCB](docs/images/pcb_assembly_top_view.jpg) | ![Etched PCB Traces](docs/images/pcb_etched_traces_bottom_view.jpg) |
+| *Fabricated control board with TP4056, ESP32-C3 Mini, SSD1306 OLED & Buzzer* | *Etched copper PCB traces showing component pads and SMD decoupling capacitors* |
 
 | Circuit Schematic Diagram | Weight Verification (113.17 g) |
 | :---: | :---: |
@@ -122,6 +127,8 @@ Clinical-NoContact-IR-Thermometer/
 │   ├── images/                                  # High-resolution prototype photos & schematics
 │   │   ├── thermometer_prototype_side.jpg       # Handheld prototype photo
 │   │   ├── oled_display_reading.jpg             # OLED temperature readout photo
+│   │   ├── pcb_assembly_top_view.jpg            # Assembled PCB top view photo
+│   │   ├── pcb_etched_traces_bottom_view.jpg    # Etched copper PCB bottom view photo
 │   │   ├── circuit_schematic.jpg                # KiCad schematic diagram image
 │   │   └── device_weight_measurement.jpg        # Digital scale weight measurement photo
 │   │
@@ -150,12 +157,12 @@ Clinical-NoContact-IR-Thermometer/
 │   │   └── EN_ISO_80601-2-56-2017.docx          # ISO standard reference document (Word)
 │   │
 │   ├── sustainability/                          # Sustainability & Ethics Declarations
-│       ├── UN_Sustainable_Development_Report.pdf# UN SDG alignment report
-│       ├── UN_Sustainable_Development_Affirmation.docx # Sustainability affirmation
-│       ├── Sustainable.docx                     # Sustainability impact analysis
-│       └── Ethics_Declaration.docx              # Engineering ethics declaration
-│   
-│   
+│   │   ├── UN_Sustainable_Development_Report.pdf# UN SDG alignment report
+│   │   ├── UN_Sustainable_Development_Affirmation.docx # Sustainability affirmation
+│   │   ├── Sustainable.docx                     # Sustainability impact analysis
+│   │   └── Ethics_Declaration.docx              # Engineering ethics declaration
+│   │
+│   └── reference-examples/                      # Past sample files & template references
 │
 └── archive/                                     # Archival Storage
     └── duplicates/                              # Preserved previous draft versions & duplicates
@@ -177,7 +184,8 @@ This project complies with **EN ISO 80601-2-56:2017**, which governs:
 Testing procedures are structured under `docs/test-procedures/`:
 1. **Acceptance Test Procedure (ATP)**: Validates basic physical and electrical assembly requirements.
 2. **Verification & Validation Test Procedure (V2TP)**: Verifies sensor calibration accuracy, thermal response time, audio alerts, and display output against reference laboratory thermometers.
-ß
+3. **Mass Verification**: Total prototype weight verified at **113.17 g** using ADAM Nimbus precision scale.
+
 ---
 
 ## (📜 ❛ ֊ ❛) License & Attribution
