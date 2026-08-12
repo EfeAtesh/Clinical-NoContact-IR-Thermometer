@@ -150,12 +150,12 @@ Clinical-NoContact-IR-Thermometer/
 │   │   └── EN_ISO_80601-2-56-2017.docx          # ISO standard reference document (Word)
 │   │
 │   ├── sustainability/                          # Sustainability & Ethics Declarations
-│   │   ├── UN_Sustainable_Development_Report.pdf# UN SDG alignment report
-│   │   ├── UN_Sustainable_Development_Affirmation.docx # Sustainability affirmation
-│   │   ├── Sustainable.docx                     # Sustainability impact analysis
-│   │   └── Ethics_Declaration.docx              # Engineering ethics declaration
-│   │
-│   └── reference-examples/                      # Past sample files & template references
+│       ├── UN_Sustainable_Development_Report.pdf# UN SDG alignment report
+│       ├── UN_Sustainable_Development_Affirmation.docx # Sustainability affirmation
+│       ├── Sustainable.docx                     # Sustainability impact analysis
+│       └── Ethics_Declaration.docx              # Engineering ethics declaration
+│   
+│   
 │
 └── archive/                                     # Archival Storage
     └── duplicates/                              # Preserved previous draft versions & duplicates
@@ -177,8 +177,7 @@ This project complies with **EN ISO 80601-2-56:2017**, which governs:
 Testing procedures are structured under `docs/test-procedures/`:
 1. **Acceptance Test Procedure (ATP)**: Validates basic physical and electrical assembly requirements.
 2. **Verification & Validation Test Procedure (V2TP)**: Verifies sensor calibration accuracy, thermal response time, audio alerts, and display output against reference laboratory thermometers.
-3. **Mass Verification**: Total prototype weight verified at **113.17 g** using ADAM Nimbus precision scale.
-
+ß
 ---
 
 ## (📜 ❛ ֊ ❛) License & Attribution
