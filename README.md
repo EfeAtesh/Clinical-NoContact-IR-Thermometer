@@ -87,6 +87,7 @@ The electrical system is designed around the **ESP32-C3 Mini** board:
 ```
 Clinical-NoContact-IR-Thermometer/
 ├── README.md                                    # Main project documentation & specification guide
+├── LICENSE                                      # CERN Open Hardware Licence v2 (CERN-OHL-P)
 ├── .gitignore                                   # OS & editor file exclusion rules
 │
 ├── mechanical/                                  # 3D Mechanical Housing & Enclosure Files (.f3d, .stl, docs)
@@ -190,4 +191,5 @@ Testing procedures are structured under `docs/test-procedures/`:
 
 ## (📜 ❛ ֊ ❛) License & Attribution
 
+This project is licensed under the **[CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P)](LICENSE)**.  
 Developed for **BME425 (01-MIY-2526S) Biomedical Engineering Project**. All rights reserved by Group 1 contributors.

@@ -1,0 +1,24 @@
+CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P)
+
+Copyright (c) 2026 BME425 Clinical Non-Contact IR Thermometer Project (Group 1 / 01-MIY-2526S).
+
+1. PREAMBLE
+1.1 The CERN Open Hardware Licence Version 2 - Permissive ("CERN-OHL-P") is intended to govern the documentation of hardware designs, software code, schematic diagrams, PCB layouts, mechanical enclosure models, and verification test procedures.
+1.2 Under the terms of this Licence, any Recipient is granted permission to copy, modify, distribute, manufacture, and implement the hardware and software components described herein.
+
+2. GRANT OF RIGHTS
+2.1 You are granted a worldwide, royalty-free, non-exclusive license under the Licensor's Intellectual Property Rights to:
+    a) Use, copy, modify, and distribute the Documentation (Schematics, Gerber PCB files, 3D Mechanical Models, Firmware);
+    b) Manufacture, test, assemble, and distribute physical items based on the Documentation;
+    c) Run, execute, and compile the embedded firmware software.
+
+3. CONDITIONS
+3.1 Retention of Copyright Notices: You must retain all copyright, trademark, and license notices in all copies of the Documentation that you distribute.
+3.2 Attribution: You must provide appropriate credit to the original project authors (BME425 Group 1).
+3.3 Notice of Modifications: If you modify the Documentation or Hardware Designs, you must include a prominent notice stating that you modified the files.
+
+4. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+4.1 DISCLAIMER: THE DOCUMENTATION AND HARDWARE DESIGNS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR MEDICAL OR CLINICAL PURPOSE, AND NONINFRINGEMENT.
+4.2 IN NO EVENT SHALL THE AUTHORS, LICENSORS, OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE HARDWARE, FIRMWARE, OR USE OF THE CLINICAL THERMOMETER DESIGN.
+
+Full legal text available at: https://ohwr.org/cern_ohl_p_v2.txt
