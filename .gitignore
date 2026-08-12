@@ -1,0 +1,23 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Office Files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build & Temporary Output Files
+*.tmp
+*.log
